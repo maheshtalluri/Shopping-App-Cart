@@ -1,0 +1,159 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #f5f5f5;
+  padding: 50px;
+}
+
+.product-card {
+  border: 1px solid #ddd;
+  padding: 15px;
+  margin: 10px;
+  background: white;
+  text-align: center;
+  width: 200px;
+  border-radius: 10px;
+}
+
+.cart {
+  margin-top: 20px;
+  padding: 20px;
+  background: white;
+}
+
+.progress-bar {
+  margin: 10px 0;
+}
+
+.progress-bar .bar {
+  width: 100%;
+  height: 10px;
+  background: #ddd;
+  border-radius: 5px;
+}
+
+.progress-bar .fill {
+  height: 10px;
+  background: green;
+}
+
+.shopping-cart {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.shopping-cart h1 {
+  color: #0080ff;
+  margin-right: 20px;
+}
+
+.icon {
+  color: #0080ff;
+  font-size: 30px;
+}
+
+.products {
+  display: flex;
+  justify-content: space-between;
+}
+
+.product-details {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.product-details img {
+  width: 50px;
+  height: 50px;
+}
+
+.product-details div h3 {
+  color: #66b032;
+}
+
+.add-to-cart {
+  background-color: #0080ff;
+  color: white;
+  border-width: 0;
+  padding: 5px;
+  padding-right: 10px;
+  padding-left: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.minus {
+  background-color: #fe2712;
+  color: white;
+  border-width: 0;
+  cursor: pointer;
+  margin-right: 10px;
+  font-size: 18px;
+  border-radius: 3px;
+}
+
+.plus {
+  background-color: #00ff00;
+  color: white;
+  border-width: 0;
+  cursor: pointer;
+  margin-left: 10px;
+  font-size: 18px;
+  border-radius: 3px;
+}
+
+.quantity-selector {
+  margin-bottom: 10px;
+}
+
+.subtotal {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.remove {
+  background-color: #585858;
+  color: white;
+  margin-left: 20px;
+  padding: 10px;
+  border-width: 0;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-left: 3px;
+  margin-top: 10px;
+}
+
+.empty {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.empty-cart {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.cart-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.free-gift {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.get {
+  background-color: #ccffcc;
+  padding: 10px;
+  border-radius: 5px;
+  color: #00cc00;
+  font-weight: bold;
+}
